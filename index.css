@@ -552,4 +552,30 @@ select#year {
     background: #f0f2f5;
 }
 
+@media screen and (max-width:576px) {
+    .background {
+        flex-direction: column;
+        padding-inline: 1rem;
+    }
+
+    .login-bg {
+        width: 300px;
+        right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .fb-bg {
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+
+    .fb-para {        
+        font-size: 20px;
+    }
+
+    .fb-head {
+        font-size: 50px;
+    }
+}
+
 
